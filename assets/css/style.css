@@ -6,7 +6,7 @@ html{
     margin: 0%;
     padding: 0%;
     border: none;
-    z-index: -10;
+    
 }
 .navbar{
     display: flex;
@@ -18,7 +18,7 @@ html{
     z-index: 10;
     background-color: #fff;
 }
- ul{
+ .navmenu{
     display: flex;
     list-style: none;    
 }
@@ -27,7 +27,7 @@ html{
     
     width: 150px;
 }
-ul li{
+.navmenu li{
     padding: 10px;
    margin-right: 10px ;
    font-size: 17px;
@@ -94,4 +94,98 @@ ul li{
     justify-content: center;
     align-items: center;
     padding: 100px;
+}
+.hero-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background: #000;
+    color: white;
+    padding: 0 24px;
+    height: 44px;
+    font-size: 15px;
+    
+}
+.hero-btn a{
+    flex: flex-start;
+margin-left:10px ;
+color: white;
+
+}
+.hero-btn:hover{
+    color: white;
+}
+.hero-btn:hover{
+background: transparent;
+border: 1px solid black;
+color: black;
+}
+.hero-btn a svg{
+    fill: #fff;
+}
+.hero-btn:hover a svg {
+    fill: black;
+}
+
+
+/* Recharge section */
+.reacharge-section{
+    background: #00baf2;
+    padding: 50px 100px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.recharge-text h1{
+   
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+   
+}
+.icon-section{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+ 
+    align-items: center;
+
+}
+.icon-box{
+    width: 140px;
+    margin-right: 32px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 16px 10px 16px 10px;
+    justify-content: center;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 25px;
+
+}
+.icon-box:hover{
+  
+    background: #00afe3;
+}
+.icon-image img{
+    width: 64px;
+    margin-bottom: 17px;
+    border-radius: 100%;
+    box-shadow: 0 5px 20px rgba(0,41,112,.1);
+
+}
+.icon-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 17px;
+    font-weight: 500;
+}
+.icon-image-text{
+    font-weight: 700;
 }
